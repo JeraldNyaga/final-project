@@ -1,6 +1,9 @@
 body {
     margin: 0;
     background-color: #63B995;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 header {
@@ -31,11 +34,9 @@ a:hover{
 
 .card {
     background-color: #ADEEE3;
-    width: fit-content;
+    width: 400px;
     padding: 10px;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 5px;
 }
 
@@ -43,6 +44,20 @@ h2{
     margin-top: 0;
 }
 
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+main {
+    flex: 1;
+}
+
 footer p{
     text-align: center;
+}
+
+footer{
+    background-color: #ADEEE3;
 }
